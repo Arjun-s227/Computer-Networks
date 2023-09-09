@@ -1,6 +1,11 @@
 # Automated-Path-Computation-SDN-
 
 ## Overview
+
+– Developed a RYU controller program to discover the network topology, calculate link costs based on traversed
+time,and compute optimal paths for all host pairs for tree network topology of 10 nodes using Mininet and RYU.
+– Implemented user interaction for connection requests, considering source, destination, service type (IPv4 or MAC),and
+bandwidth. Generated and applied configuration updates on intermediate switches along the path.
 Designed and implemented a custom network topology consisting of 10 nodes with diverse link delays (1ms - 5ms) and 50Mb bandwidth using Mininet and RYU controller.
 
 Developed a RYU controller program to automatically discover the network topology, calculate link costs based on traversed time, and compute optimal paths for all host pairs.
